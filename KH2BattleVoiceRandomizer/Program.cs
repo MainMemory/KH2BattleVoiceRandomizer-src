@@ -35,7 +35,7 @@ namespace KH2BattleVoiceRandomizer
 			Mod mod = new Mod
 			{
 				Title = "Battle Voice Randomizer",
-				Description = "Randomizes voices in battle.",
+				Description = "Randomizes voices in battle. Run KH2BattleVoiceRandomizer.exe to randomize the voices.",
 				Assets = new List<Asset>()
 			};
 			foreach (string fn in Directory.EnumerateFiles(Path.Combine(settings.KH2Folder, $@"voice\{settings.Language}\battle"), "*.scd"))
